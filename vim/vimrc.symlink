@@ -9,6 +9,7 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'kien/ctrlp.vim'
+Plugin 'tomasr/molokai'
 
 " Keep Plugin commands between vundle#begin/end.
 Plugin 'tpope/vim-fugitive'
@@ -27,7 +28,6 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
-
 
 " Leader
 let mapleader = " "
@@ -179,3 +179,8 @@ set diffopt+=vertical
 if filereadable($HOME . "/.vimrc.local")
   source ~/.vimrc.local
 endif
+
+" Molokai Theme
+let g:molokai_original = 1
+let g:rehash256 = 1
+colorscheme molokai
