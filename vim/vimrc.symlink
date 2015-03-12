@@ -11,6 +11,8 @@ call vundle#begin()
 Plugin 'kien/ctrlp.vim'
 Plugin 'tomasr/molokai'
 Plugin 'bling/vim-airline'
+Plugin 'scrooloose/nerdtree'
+
 
 " Keep Plugin commands between vundle#begin/end.
 Plugin 'tpope/vim-fugitive'
