@@ -15,7 +15,8 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'rking/ag.vim'
 Plugin 'fatih/vim-go'
-
+Plugin 'tpope/vim-rails'
+Plugin 'tpope/vim-bundler'
 " Keep Plugin commands between vundle#begin/end.
 Plugin 'tpope/vim-fugitive'
 
