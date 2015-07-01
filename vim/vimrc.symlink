@@ -17,6 +17,7 @@ Plugin 'rking/ag.vim'
 Plugin 'fatih/vim-go'
 Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-bundler'
+Plugin 'mtscout6/vim-cjsx'
 " Keep Plugin commands between vundle#begin/end.
 Plugin 'tpope/vim-fugitive'
 
