@@ -149,6 +149,12 @@ map <Leader>ct :!ctags -R .<CR>
 " Switch between the last two files
 nnoremap <leader><leader> <c-^>
 
+" Map Inverse Display Lines & Real Lines
+nnoremap k gk
+nnoremap gk k
+nnoremap j gj
+nnoremap gj j
+
 " Get off my lawn
 nnoremap <Left> :echoe "Use h"<CR>
 nnoremap <Right> :echoe "Use l"<CR>
