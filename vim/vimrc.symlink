@@ -23,6 +23,7 @@ Plugin 'jeffkreeftmeijer/vim-numbertoggle'
 " Keep Plugin commands between vundle#begin/end.
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
+Plugin 'easymotion/vim-easymotion'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -216,6 +217,12 @@ let g:ctrlp_user_command = 'ag %s -i --nocolor --nogroup --hidden
 " Airline
 let g:airline_powerline_fonts = 1
 let g:airline_theme='dark'
+
+" EasyMotion
+nmap s <Plug>(easymotion-s)
+
+map <Leader>j <Plug>(easymotion-j)
+map <Leader>k <Plug>(easymotion-k)
 
 " NERDTree
 silent! map <C-f> :NERDTreeToggle<CR>
