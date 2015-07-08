@@ -235,3 +235,25 @@ map <Leader>k <Plug>(easymotion-k)
 
 " NERDTree
 silent! map <C-f> :NERDTreeToggle<CR>
+
+" Switch between the last two files
+nnoremap <leader><leader> <C-^>
+
+"Make Y yank to end of line (like D, or C)
+nmap Y y$
+
+" Do not use <Ctrl-c> to break out to normal mode
+" Use C-Space to Esc out of any mode
+nnoremap <C-Space> <Esc>:noh<CR>
+vnoremap <C-Space> <Esc>gV
+onoremap <C-Space> <Esc>
+cnoremap <C-Space> <C-c>
+inoremap <C-Space> <Esc>`^
+" Terminal sees <C-@> as <C-space> WTF, but ok
+nnoremap <C-@> <Esc>:noh<CR>
+vnoremap <C-@> <Esc>gV
+onoremap <C-@> <Esc>
+cnoremap <C-@> <C-c>
+inoremap <C-@> <Esc>`^
+
+
