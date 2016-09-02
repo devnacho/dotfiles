@@ -56,3 +56,6 @@ alias dockbuild='docker-compose build'
 alias dockrun='docker-compose run --service-ports app'
 alias dockup='docker-compose up'
 alias dockstop='docker-compose stop'
+
+## Docker Location
+export MACHINE_STORAGE_PATH=/Volumes/DISKTWO/Docker
