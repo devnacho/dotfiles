@@ -30,6 +30,7 @@ values."
      markdown
      ruby
      react
+     elixir
      ;; org
      ;; (shell :variables
      ;;        shell-default-height 30
@@ -61,6 +62,7 @@ values."
   ;; This setq-default sexp is an exhaustive list of all the supported
   ;; spacemacs settings.
   (setq-default
+   create-lockfiles nil
    ;; If non nil ELPA repositories are contacted via HTTPS whenever it's
    ;; possible. Set it to nil if you have no way to use HTTPS in your
    ;; environment, otherwise it is strongly recommended to let it set to t.
