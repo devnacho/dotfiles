@@ -59,3 +59,5 @@ alias dockstop='docker-compose stop'
 
 ## Docker Location
 export MACHINE_STORAGE_PATH=/Volumes/DISKTWO/Docker
+
+test -s "$HOME/.kiex/scripts/kiex" && source "$HOME/.kiex/scripts/kiex"
