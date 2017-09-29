@@ -43,21 +43,4 @@ unset config_files
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
-### Docker Stuff
-eval "$(docker-machine env default)"
-
-alias dockrestart='docker-machine restart default'
-alias dockeval='eval "$(docker-machine env default)"'
-
-
-alias dockrestart='docker-machine restart default'
-alias docker-rehash='eval "$(docker-machine env default)"'
-alias dockbuild='docker-compose build'
-alias dockrun='docker-compose run --service-ports app'
-alias dockup='docker-compose up'
-alias dockstop='docker-compose stop'
-
-## Docker Location
-export MACHINE_STORAGE_PATH=/Volumes/DISKTWO/Docker
-
 test -s "$HOME/.kiex/scripts/kiex" && source "$HOME/.kiex/scripts/kiex"
