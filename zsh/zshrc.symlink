@@ -27,12 +27,8 @@ do
   source $file
 done
 
-if type brew &>/dev/null; then
-  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+echo ". $(brew --prefix asdf)/asdf.sh" >> $HOME/.zshrc # (or .bashrc depending on which shell you are using)
 
-  autoload -Uz compinit
-  compinit
-fi
 
 # initialize autocomplete here, otherwise functions won't be loaded
 autoload -U compinit
@@ -54,3 +50,6 @@ test -s "$HOME/.kiex/scripts/kiex" && source "$HOME/.kiex/scripts/kiex"
 
 alias pg-start="launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"
 alias pg-stop="launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"
+. /opt/homebrew/opt/asdf/asdf.sh
+. /opt/homebrew/opt/asdf/asdf.sh
+. /opt/homebrew/opt/asdf/asdf.sh
