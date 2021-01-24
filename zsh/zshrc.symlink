@@ -53,3 +53,5 @@ alias pg-stop="launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.postgresql.
 . /opt/homebrew/opt/asdf/asdf.sh
 . /opt/homebrew/opt/asdf/asdf.sh
 . /opt/homebrew/opt/asdf/asdf.sh
+. /opt/homebrew/opt/asdf/asdf.sh
+. /opt/homebrew/opt/asdf/asdf.sh
