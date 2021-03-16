@@ -50,8 +50,7 @@ test -s "$HOME/.kiex/scripts/kiex" && source "$HOME/.kiex/scripts/kiex"
 
 alias pg-start="launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"
 alias pg-stop="launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"
-. /opt/homebrew/opt/asdf/asdf.sh
-. /opt/homebrew/opt/asdf/asdf.sh
-. /opt/homebrew/opt/asdf/asdf.sh
-. /opt/homebrew/opt/asdf/asdf.sh
+
+eval "$(cased-init -)"
+
 . /opt/homebrew/opt/asdf/asdf.sh
